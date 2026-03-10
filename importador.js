@@ -3,7 +3,7 @@ const imoveis = [
     titulo: "Casa Térrea em Jacareí",
     preco: "R$ 620.000",
     cidade: "Jacareí - SP",
-    foto: "Imagem do WhatsApp 2026-02-1.jpg"
+    foto: "casa 1.jpg"
   }
 ];
 
