@@ -3,6 +3,7 @@ const imoveis = [
     titulo: "Casa Térrea em Jacareí",
     preco: "R$ 620.000",
     cidade: "Jacareí - SP"
+    foto: "casa1.jpg"
   },
   {
     titulo: "Apartamento em São José dos Campos",
