@@ -2,26 +2,22 @@ const imoveis = [
   {
     titulo: "Casa Térrea em Jacareí",
     preco: "R$ 620.000",
-    cidade: "Jacareí - SP",
-    foto: "https://via.placeholder.com/400x300?text=Imovel+1"
+    cidade: "Jacareí - SP"
   },
   {
     titulo: "Apartamento em São José dos Campos",
     preco: "R$ 480.000",
-    cidade: "São José dos Campos - SP",
-    foto: "https://via.placeholder.com/400x300?text=Imovel+2"
+    cidade: "São José dos Campos - SP"
   },
   {
     titulo: "Cobertura em Taubaté",
     preco: "R$ 890.000",
-    cidade: "Taubaté - SP",
-    foto: "https://via.placeholder.com/400x300?text=Imovel+3"
+    cidade: "Taubaté - SP"
   },
   {
     titulo: "Chácara em Igaratá",
     preco: "R$ 1.250.000",
-    cidade: "Igaratá - SP",
-    foto: "https://via.placeholder.com/400x300?text=Imovel+4"
+    cidade: "Igaratá - SP"
   }
 ];
 
@@ -44,8 +40,26 @@ container.innerHTML = `
         background:#fff;
         box-shadow:0 2px 10px rgba(0,0,0,0.08);
       ">
-        <img src="${imovel.foto}" style="width:100%; border-radius:12px; margin-bottom:12px;">
-        <h2 style="margin:0 0 8px 0; font-size:28px;">${imovel.titulo}</h2>
+        <div style="
+          width:100%;
+          height:220px;
+          border-radius:12px;
+          margin-bottom:12px;
+          background:linear-gradient(135deg, #dfe9f3 0%, #ffffff 100%);
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          font-size:22px;
+          font-weight:bold;
+          color:#0a58ff;
+          text-align:center;
+          padding:20px;
+          box-sizing:border-box;
+        ">
+          Foto do imóvel
+        </div>
+
+        <h2 style="margin:0 0 8px 0; font-size:28px; line-height:1.2;">${imovel.titulo}</h2>
         <p style="margin:4px 0; font-size:20px;">${imovel.cidade}</p>
         <strong style="font-size:30px; color:#0a58ff;">${imovel.preco}</strong>
       </div>
